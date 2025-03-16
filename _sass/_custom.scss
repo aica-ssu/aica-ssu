@@ -1,0 +1,131 @@
+// AICA Lab Custom Styles
+
+// Custom colors
+$aica-blue: #00539b;
+$aica-light-blue: #007bff;
+$aica-gold: #f8cd36;
+$aica-gray: #6c757d;
+$aica-light-gray: #f8f9fa;
+
+// General styling
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $aica-blue;
+  font-weight: 700;
+}
+
+.navbar {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  color: $aica-blue !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: $aica-gray;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  
+  &:hover, &:focus {
+    color: $aica-light-blue;
+  }
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: $aica-light-blue;
+  font-weight: 700;
+}
+
+// Homepage styling
+.post-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.profile img {
+  border: 3px solid white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+// Cards styling for people and projects
+.card {
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-weight: 600;
+    color: $aica-blue;
+  }
+}
+
+// Custom footer
+footer {
+  background-color: $aica-blue;
+  color: white;
+  padding: 2rem 0;
+  
+  a {
+    color: $aica-gold;
+    
+    &:hover {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+// Button styling
+.btn-primary {
+  background-color: $aica-blue;
+  border-color: $aica-blue;
+  
+  &:hover, &:focus {
+    background-color: darken($aica-blue, 10%);
+    border-color: darken($aica-blue, 10%);
+  }
+}
+
+// Publications styling
+.publications {
+  .title {
+    font-weight: 600;
+  }
+  
+  .authors {
+    font-style: italic;
+  }
+}
+
+// Custom news styling
+.news table td {
+  padding: 0.75rem;
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  .post-header h1 {
+    font-size: 2rem;
+  }
+  
+  .profile {
+    margin-bottom: 2rem;
+  }
+} 

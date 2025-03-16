@@ -1,25 +1,41 @@
 ---
 layout: about
-title: about
+title: home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <b>Artificial Intelligence & Computer Architecture Lab</b> | Soongsil University
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: lab_logo.jpg  # We'll add this image later
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>School of Computer Science and Engineering</p>
+    <p>Soongsil University</p>
+    <p>Seoul, South Korea</p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+news: true
+selected_papers: true
+social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+## Welcome to AICA Lab
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+The **Artificial Intelligence & Computer Architecture Laboratory (AICA Lab)** at Soongsil University conducts cutting-edge research at the intersection of artificial intelligence and computer systems. Our mission is to develop innovative solutions that address the computational challenges of modern AI systems.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+## Research Focus
+
+Our research spans multiple domains including:
+
+- **AI Systems Design**: Building efficient hardware and software systems for AI workloads
+- **Computer Architecture**: Designing specialized architectures for machine learning acceleration
+- **Deep Learning**: Developing novel neural network models and optimization techniques
+- **Embedded AI**: Deploying efficient AI solutions on resource-constrained devices
+- **Neuromorphic Computing**: Exploring brain-inspired computing paradigms
+
+## Join Us
+
+We are always looking for motivated students and researchers interested in AI and computer architecture. If you are interested in joining our lab, please [contact us](/contact/).
+
+## Funding & Support
+
+Our research is supported by various funding agencies and industry partners including the National Research Foundation of Korea (NRF), the Ministry of Science and ICT, and industry collaborations.
